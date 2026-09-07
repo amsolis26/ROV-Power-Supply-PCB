@@ -1,5 +1,5 @@
 # ROV Power Supply PCB
-![PCB](Media/Power_Supply_PCB.jpg)
+![PCB](Media/Power_Supply_PCB.jpeg)
 
 ## Problem
 A common laptop power supply provides a much higher voltage than what the electronics in my ROV are rated for. To solve this issue, I needed to design a PCB that can fit into the 3-Inch Diameter Housing of my ROV to safely step down the voltage and power my onboard electronics
