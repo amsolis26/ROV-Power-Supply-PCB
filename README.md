@@ -2,7 +2,7 @@
 ![PCB](Media/Power_Supply_PCB.jpeg)
 
 ## Problem
-A common laptop power supply provides a much higher voltage than what the electronics in my ROV are rated for. To solve this issue, I needed to design a PCB that can fit into the 3-Inch Diameter Housing of my ROV to safely step down the voltage and power my onboard electronics
+A common laptop power supply provides a much higher voltage than what the electronics in my ROV are rated for. To solve this issue, I needed to design a PCB that can fit into the 3-Inch Diameter Housing of my ROV to safely step down the voltage and power my onboard electronics.
 
 ## Approach
 - Select DC/DC converter suited for the voltage conversion I need to power the ROV
@@ -12,9 +12,9 @@ A common laptop power supply provides a much higher voltage than what the electr
 - Use Desk Power supply to test if the output meets desired Voltage
 
 ## Results
-The PCB delivers an output of 12V, succesfully powering onboard electronics
+The PCB delivers an output ~12V, succesfully powering onboard electronics.
 
 ## Tools
-- KiCAD
-- PCB Way
-- DigiKey
+- KiCAD (Schematic & PCB Design)
+- PCB Way (PCB Manufacturing)
+- DigiKey (Part Lookup & Ordering)
