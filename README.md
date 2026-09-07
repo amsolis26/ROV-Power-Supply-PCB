@@ -13,3 +13,8 @@ A common laptop power supply provides a much higher voltage than what the electr
 
 ## Results
 The PCB delivers an output of 12V, succesfully powering onboard electronics
+
+## Tools
+- KiCAD
+- PCB Way
+- DigiKey
