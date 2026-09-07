@@ -1,9 +1,15 @@
-# Step-Down Voltage Regulator PCB — Laptop PSU to ROV Power System
+# Custom ROV Power Supply PCB
 
-*Custom buck converter PCB regulating laptop PSU output for safe ROV electronics power delivery*
 
-## Overview
-This project is a custom-designed PCB that steps down voltage from a repurposed laptop power supply to safely power the electronics on my ROV. It was built to solve a specific power mismatch problem in one of my ROV builds.
+## Problem
+A common laptop power supply provides a much higher voltage than what the electronics in my ROV are rated for. To solve this issue, I needed to design a PCB that can fit into the 3-Inch Diameter Housing of my ROV to safely step down the voltage and power my onboard electronics
 
-## The Problem
-The ROV's onboard electronics required a lower, regulated voltage than what the available laptop PSU could supply directly. Rather than buying a pre-made regulator module, I designed a custom PCB tailored to the ROV's specific power and current requirements.
+## Approach
+- Select DC/DC converter suited for the voltage conversion I need to power the ROV
+- Design a schematic & PCB Layout using KiCAD
+- Send out files for PCB manufacturing
+- Order & Solder components together
+- Use Desk Power supply to test if the output meets desired Voltage
+
+## Results
+The PCB delivers an output of 12V, succesfully powering onboard electronics
